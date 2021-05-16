@@ -1,0 +1,25 @@
+<!--pages/my/remind.wxml-->
+<view class="container">
+
+  <view class="new-wrap">
+    <view class="new-item dis-flex vie-jus vie-cen">
+      <view class="new-tit">2021.4.15忘记打卡<text>*下班</text></view>
+      <view class="new-jump dis-flex vie-cen">
+        <image src="/img/my/icon_2.png"></image>
+        <text>去补卡</text>
+      </view>
+    </view>
+    <view class="new-item dis-flex vie-jus vie-cen">
+      <view class="new-tit">2021.4.15忘记打卡<text>*下班</text></view>
+      <view class="new-jump dis-flex vie-cen">
+        <image src="/img/my/icon_2.png"></image>
+        <text>去补卡</text>
+      </view>
+    </view>
+    <view class="new-item dis-flex vie-jus vie-cen">
+      <view class="new-tit">2021.4.15忘记打卡<text>*下班</text></view>
+      
+    </view>
+  </view>
+
+</view>

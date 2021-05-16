@@ -1,0 +1,157 @@
+/* pages/leaman/apply.wxss */
+.container{
+  background:#f8f9fb;
+  padding-bottom: 200rpx;
+}
+.lea-det-tips{
+  padding-top: 50rpx;
+  justify-content:flex-end;
+}
+.lea-det-tips .lea-tips-wrap{
+  width:300rpx;
+  height: 80rpx;
+  background: #fff;
+}
+.lea-det-tips .lea-tips-wrap image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: -30rpx;
+}
+.lea-det-tips .lea-tips-wrap .lea-tips-tit{
+   line-height: 80rpx;
+   font-size: 24rpx;
+   margin-left: 24rpx;
+   color: #484848;
+}
+.lea-det-tips .lea-tips-wrap .lea-tips-tit text{
+  color: #598eee;
+  font-size: 36rpx;
+}
+
+.app-from-1{
+  width: 630rpx;
+  background-color: #fff;
+  padding: 50rpx 30rpx;
+  margin: 50rpx auto 30rpx;
+  border-radius: 20rpx;
+}
+.app-from-1 .app-data-item{
+  width:100%;
+  height: auto;
+  margin-top: 40rpx;
+}
+.app-from-1 .app-data-item .app-item-tit{
+  width:150rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  color: #484848;
+  font-weight: bold;
+}
+.app-from-1 .app-item-tit text{
+  color: #f00;
+}
+.app-from-1 .app-data-item .app-item-con{
+  width:480rpx;
+  height: auto;
+}
+.app-from-1 .app-item-con picker{
+  width:100%;
+  height: 76rpx;
+  line-height: 76rpx;
+  font-size: 24rpx;
+  color: #b1b1b1;
+  border:2rpx solid #c3d7fa;
+  border-radius: 10rpx;
+  text-indent: 20rpx;
+}
+.app-from-1 .app-item-con .app-timer{
+  width:100%;
+  height: 76rpx;
+  line-height: 76rpx;
+  font-size: 24rpx;
+  color: #b1b1b1;
+  border:2rpx solid #c3d7fa;
+  border-radius: 10rpx;
+  text-indent: 20rpx;
+}
+.app-from-1 .app-timer text{
+   float: right;
+   margin-right: 20rpx;
+}
+.app-from-1 .app-item-con textarea{
+  width:100%;
+  line-height: 76rpx;
+  height: 152rpx;
+  border:2rpx solid #c3d7fa;
+  color: #b1b1b1;
+  border-radius: 10rpx;
+  padding:0 20rpx;
+  font-size: 24rpx;
+  box-sizing: border-box;
+}
+.app-from-2{
+  width: 630rpx;
+  background-color: #fff;
+  padding: 20rpx 30rpx 50rpx;
+  margin: 0 auto;
+  border-radius: 20rpx;
+}
+.app-from-2 .app-from-item{
+  width:630rpx;
+  background-image: url(https://cs1.ejiubo.net/img/oa/icon_line_1.png);
+  background-repeat: repeat-y;
+  background-size: 2rpx 10rpx;
+  background-position: 14rpx 0;
+  
+}
+.app-from-2 .pb20{
+  padding-bottom: 20rpx;
+}
+.app-from-2 .app-from-item .app-icon{
+  width:30rpx;
+  height: 60rpx;
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_normal_1.png);
+  background-size: 30rpx 60rpx;
+  float: left;
+}
+.app-from-2 .app-from-item.n1 .app-icon{
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_normal_2.png);
+}
+.app-from-2 .app-from-item .app-item-con{
+  width:580rpx;
+  height: 66rpx;
+  float: right;
+  padding-bottom: 20rpx;
+  align-items: flex-end;
+  border-bottom:2px dashed #c3cff3;
+}
+.app-from-2 .app-item-con .app-item-tit{
+  width:90rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #484848;
+}
+.app-from-2 .app-item-con .app-item-name{
+  width: 400rpx;
+  font-size:28rpx;
+  color: #b1b1b1;
+}
+.app-from-2 .app-item-con image{
+  width:60rpx;
+  height: 60rpx;
+}
+.app-foot{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width:100%;
+  height: 80rpx;
+}
+.app-foot button{
+  width:750rpx !important;
+  height: 100%;
+  background: #3b75db;
+  border-radius: 0;
+  color: #fff;
+  font-size: 28rpx;
+}

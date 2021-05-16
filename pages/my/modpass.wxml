@@ -1,0 +1,23 @@
+<!--pages/my/modpass.wxml-->
+<view class="container">
+  <view class="pass-item">
+    <view class="pass-tit">旧密码</view>
+    <view class="pass-con">
+      <input placeholder="请输入您的旧密码"></input>
+    </view>
+  </view>
+  <view class="pass-item">
+    <view class="pass-tit">新密码</view>
+    <view class="pass-con">
+      <input placeholder="请输入您的新密码"></input>
+    </view>
+  </view>
+  <view class="pass-item">
+    <view class="pass-tit">确认新密码</view>
+    <view class="pass-con">
+      <input placeholder="请确认您的新密码"></input>
+    </view>
+  </view>
+  <button>确认</button>
+
+</view>

@@ -1,0 +1,17 @@
+<view class="nav-bar dis-flex">
+    <view class="nav-item {{index==0?'checked':''}}" data-index="0" bindtap="jumIndex">
+      <image src="/img/foot_1.jpg"></image>
+      <image src="/img/foot_1a.jpg"></image>
+      <text>消息</text>
+    </view>
+    <view class="nav-item {{index==1?'checked':''}}" data-index="1" bindtap="jumIndex">
+      <image src="/img/foot_2.jpg"></image>
+      <image src="/img/foot_2a.jpg"></image>
+      <text>工作台</text>
+    </view>
+    <view class="nav-item {{index==2?'checked':''}}" data-index="2" bindtap="jumIndex">
+      <image src="/img/foot_3.jpg"></image>
+      <image src="/img/foot_3a.jpg"></image>
+      <text>我的</text>
+    </view>
+  </view>

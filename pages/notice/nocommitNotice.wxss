@@ -1,0 +1,56 @@
+.container {
+  background: #F8F9FB;
+  padding-bottom: 180rpx;
+  margin-bottom: 100rpx;
+}
+/* 头图 */
+.noticeHeadImg{
+  width: 100%；
+}
+.noticeHeadImg image{
+  width: 100%;
+}
+/* 通知信息 */
+.notice{
+  width: 640rpx;
+  padding: 50rpx 25rpx 140rpx;
+  margin: 70rpx auto 20rpx;
+  background: #fff;
+  position: relative;
+}
+.noticeTitle{
+  text-align: center;
+  font-size: 40rpx;
+  margin-bottom: 20rpx;
+}
+.noticeContent{
+  width: 88%;
+  padding: 40rpx 20rpx;
+  margin: 0 auto;
+  background: #F8F9FB;
+  color: #557CC1;
+  border-top: 1px solid #557CC1;
+  letter-spacing: 5rpx;
+  line-height: 40rpx;
+  text-indent: 2em;
+  text-align: justify;
+}
+.noticePeople{
+  position: absolute;
+  bottom: 70rpx;
+  right: 10%;
+}
+.noticePeople image{
+  width: 30rpx;
+  height: 35rpx;
+  vertical-align: middle;
+}
+.noticePeople text{
+  vertical-align: middle;
+}
+.noticeTime{
+  position: absolute;
+  bottom: 15rpx;
+  right: 10%;
+  color: #9A9A9A;
+}

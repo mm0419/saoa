@@ -1,0 +1,45 @@
+<!--pages/notice/unread.wxml-->
+<!-- <text>pages/notice/unread.wxml</text> -->
+<view class="container">
+  <view class="top">
+    <nav prop-array='{{navArr}}' bindleaJump="leaJump"></nav>
+  </view>
+  <!-- 信息列表 -->
+  <view class="readInfo">
+    <view class="infoList">
+      <view class="conreadInfo">
+        <view>
+          <view class="infoFormName">王小二</view>
+          <view class="infoFormTime">2021.4.1510:09</view>
+        </view>
+        <view>
+          <image src="/img/ggglImg/fenzhenchuImg.png"></image>
+          <text class="cenke">分院临床1科</text>
+        </view>
+      </view>
+    </view>
+    <view class="infoList">
+      <view class="conreadInfo">
+        <view>
+          <view class="infoFormName">王小二</view>
+          <view class="infoFormTime">2021.4.1510:09</view>
+        </view>
+        <view>
+          <image src="/img/ggglImg/fenzhenchuImg.png"></image>
+          <text class="cenke">分院临床1科</text>
+        </view>
+      </view>
+    </view><view class="infoList">
+      <view class="conreadInfo">
+        <view>
+          <view class="infoFormName">王小二</view>
+          <view class="infoFormTime">2021.4.1510:09</view>
+        </view>
+        <view>
+          <image src="/img/ggglImg/fenzhenchuImg.png"></image>
+          <text class="cenke">分院临床1科</text>
+        </view>
+      </view>
+    </view> 
+  </view>
+</view>

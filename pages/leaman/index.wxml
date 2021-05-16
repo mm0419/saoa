@@ -1,0 +1,50 @@
+<!--pages/leaman/index.wxml-->
+<view class="container">
+
+  <view class="top">
+    <view class="app-nav">
+     <nav prop-array='{{navArr}}' bindleaJump="leaJump"></nav>
+    </view> 
+    <view class="nav-fun dis-flex vie-jus">
+      <view class="nav-sea dis-flex">
+        <input placeholder="员工姓名部门" placeholder-class="pla-sty"></input>
+        <image src="/img/leaman/icon_loupe.jpg"></image>
+      </view>
+      <select prop-array='{{sArr1}}'  bind:select='select' />
+      <select prop-array='{{sArr2}}'  bind:select='select' />
+    </view>
+  </view>
+  <view class="lea-wrap">
+    <view class="lea-item">
+      <view class="lea-info-wrap dis-flex {{onOff?'move-left':''}}">
+        <view class="lea-info" bindtouchstart='touchStart' bindtouchmove='touchMove' bindtouchend='touchEnd'>
+          <image src="/img/leaman/icon_bg.jpg" class="icon"></image>
+          <view class="lea-tit dis-flex">
+            <view class="lea-name">李大宝</view>
+            <view class="lea-class">
+              <image src="/img/leaman/icon_1.jpg"></image>
+              <text>病假</text>
+            </view>
+            <view class="lea-bill">
+              <text>有</text>单据
+            </view>
+          </view>
+          <view class="lea-des">
+            有事请假,有事请假,有事请假,有事请假,有事请假。有事请假,有事请假,有事请假有事请假。有事请假。有事请假,有事请假,有事请假,有事请假,有事请假。有事请假,有事请假,有事请假有事请假。有事请假。
+          </view>
+          <view class="lea-time">2021.2.18 15:12:44</view>
+          <image src="/img/leaman/icon_ing.png" class="state"></image>
+        </view>
+        <view class="lea-info-ope dis-flex">
+          <view class="lea-info-font">撤销</view>
+          <text></text>
+          <text></text>
+          <text></text>
+          <text></text>
+          <text></text>
+        </view>
+      </view>    
+    </view>
+  </view>
+
+</view>

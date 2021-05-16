@@ -1,0 +1,121 @@
+<!--pages/leaman/detail.wxml-->
+<view class="container">
+    <view class="lea-det-tips dis-flex">
+      <view class="lea-tips-wrap dis-flex">
+        <image src="/img/leaman/icon_hol.png"></image>
+        <view class="lea-tips-tit">本月已请假<text>3</text>天</view>
+      </view>
+    </view>
+    <view class="lea-det-title">
+      <text>分院临床1科</text>
+      <text>王大胖</text>
+      <text>2021.2.15 15:12:15</text>
+    </view>
+    <view class="lea-det-1">
+      <view class="lea-det-tit1 dis-flex">
+        <image src="/img/leaman/icon_1.png"></image>
+        <text>产假</text>
+      </view>
+      <view class="lea-det-item dis-flex">
+        <view class="tit">请假开始时间</view>
+        <text class="con">2021.2.15 09:00:00</text>
+      </view>
+      <view class="lea-det-item dis-flex">
+        <view class="tit">请假结束时间</view>
+        <text class="con">2021.2.15 09:00:00</text>
+      </view>
+      <view class="lea-det-item dis-flex mt22">
+        <view class="tit">请假时长</view>
+        <view class="con1 dis-flex">8<text class="con">/小时</text></view>
+      </view>
+      <view class="lea-det-item dis-flex">
+        <view class="tit">原因说明</view>
+        <text class="con">去生孩子。</text>
+      </view>
+      <view class="lea-det-item dis-flex">
+        <view class="tit">有无单据</view>
+        <view class="con-btn dis-flex vie-cen">
+          <radio-group>
+            <radio>有</radio>
+          </radio-group>
+          <radio-group>
+            <radio>无</radio>
+          </radio-group>
+        </view>
+        <image src="/img/leaman/icon_ing.png" class="state"></image>
+      </view>
+    </view>
+    <view class="line"></view>
+    
+    <view class="lea-det-2">
+      <view class="lea-exa-item clearfix y1" style="padding-bottom:50rpx">
+        <view class="sta-icon"></view>
+        <view class="sta-con">
+          <view class="sta-info dis-flex vie-jus">
+            <image src="/img/leaman/icon_2.png" class="sta-icon2"></image>
+            <view class="sta-name">王主管</view>
+            <view class="sta-line"></view>
+            <view class="sta-time">2021-3-23 09:30:00</view>
+          </view>
+          <view class="sta-rem" style="display:none">请填写备注意见,非必填请填写备注意见,非必填请填写备注意见</view>
+        </view>
+      </view>
+      <view class="lea-exa-item clearfix w1 w2">
+        <view class="sta-icon"></view>
+        <view class="sta-con">
+          <view class="sta-info dis-flex vie-jus">
+            <image src="/img/leaman/icon_2.png" class="sta-icon2"></image>
+            <view class="sta-name">王主管</view>
+            <view class="sta-line"></view>
+            <view class="sta-time">2021-3-23 09:30:00</view>
+          </view>
+          <view class="sta-rem">请填写备注意见,非必填请填写备注意见,非必填请填写备注意见</view>
+        </view>
+      </view>
+      <view class="lea-exa-item clearfix n1 n2">
+        <view class="sta-icon"></view>
+        <view class="sta-con">
+          <view class="sta-info dis-flex vie-jus">
+            <image src="/img/leaman/icon_2.png" class="sta-icon2"></image>
+            <view class="sta-name">王主管</view>
+            <view class="sta-line"></view>
+            <view class="sta-time">2021-3-23 09:30:00</view>
+          </view>
+          <view class="sta-rem">请填写备注意见,非必填请填写备注意见,非必填请填写备注意见</view>
+        </view>
+      </view>
+      <view class="lea-exa-item clearfix h1 h2">
+        <view class="sta-icon"></view>
+        <view class="sta-con">
+          <view class="sta-info dis-flex vie-jus">
+            <image src="/img/leaman/icon_2.png" class="sta-icon2"></image>
+            <view class="sta-name">王主管</view>
+            <view class="sta-line"></view>
+            <view class="sta-time">2021-3-23 09:30:00</view>
+          </view>
+          <view class="sta-rem">请填写备注意见,非必填请填写备注意见,非必填请填写备注意见</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="lea-foot dis-flex">
+      <button class="lea-mod-1 dis-flex" hover-class="lea-mod-2">
+        <view class="btn-icon">
+          <image src="/img/leaman/icon_3.png"></image>
+        </view>
+        <text>修改</text>
+      </button>
+      <button class="lea-agr-1 dis-flex" hover-class="lea-agr-2">
+        <view class="btn-icon">
+          <image src="/img/leaman/icon_4.png"></image>
+        </view>
+        <text>同意</text>
+      </button>
+      <button class="lea-ref-1 dis-flex" hover-class="lea-ref-2">
+        <view class="btn-icon">
+          <image src="/img/leaman/icon_5.png"></image>
+        </view>
+        <text>拒绝</text>
+      </button>
+    </view>
+</view>

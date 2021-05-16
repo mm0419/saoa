@@ -1,0 +1,10 @@
+/* pages/my/aboutus.wxss */
+.container{
+  padding-top: 240rpx;
+}
+.container image{
+  display: block;
+  margin: 0 auto 150rpx;
+  width:315rpx;
+  height: 325rpx;
+}

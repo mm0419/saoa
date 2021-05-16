@@ -1,0 +1,39 @@
+.container {
+  background-color: #F8F9FB;
+  padding-top: 50rpx;
+}
+/* 信息列表 */
+.readInfo{
+  width: 690rpx;
+  margin: 35rpx auto;
+}
+.infoList{
+  background-color: #fff;
+  width: 94%;
+  height: 140rpx;
+  padding: 25rpx 20rpx 0;
+  margin-bottom: 35rpx;
+} 
+.conreadInfo{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #C2CFF2;
+}
+.conreadInfo image{
+  width: 45rpx;
+  height: 45rpx;
+  vertical-align: middle;
+  margin-right: 5rpx;
+}
+.infoFormName{
+  margin-bottom: 20rpx;
+  font-size: 36rpx;
+}
+.infoFormTime{
+  color: #A9A9A9;
+  margin-bottom: 10rpx;
+}
+.cenke{
+  color: #333;
+  vertical-align: middle;
+}

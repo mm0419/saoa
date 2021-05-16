@@ -1,0 +1,3 @@
+<view class="nav dis-flex">
+    <text wx:for="{{arr}}" wx:key="this" class="{{dataInx==item.id?'checked':''}}" data-index="{{item.id}}" bindtap="jumIndex">{{item.name}}</text>
+</view>

@@ -1,0 +1,53 @@
+/* pages/my/index.wxss */
+.container{
+  padding-bottom: 200rpx;
+}
+.my-header{
+  display: block;
+  width:690rpx;
+  height:436rpx;
+  margin: 50rpx auto 0;
+}
+.land-tips{
+  margin: 0 auto;
+  width: 630rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+  font-size: 36rpx;
+  text-align: right;
+  padding: 0 30rpx;
+  border-bottom: 2rpx solid #d8dee7; 
+}
+.land-ope{
+  margin: 0 auto;
+  width:690rpx;
+  background: #f9fbfe;
+}
+.land-ope .land-item{
+  margin: 0 auto;
+  width: 630rpx;
+  height: 100rpx;
+  background-image: url(https://cs1.ejiubo.net/img/oa/icon_5.jpg);
+  background-size: 13rpx 23rpx;
+  background-repeat: no-repeat;
+  background-position: right center;
+  border-bottom: 2rpx dashed #c3cff3;
+}
+.land-ope .land-item image{
+  width:35rpx;
+  height: 31rpx;
+  margin-right: 20rpx;
+}
+.land-ope .land-item text{
+  font-size: 28rpx;
+  line-height: 100rpx;
+  color: #4b4b4b;
+}
+.container button{
+  margin: 40rpx auto;
+  width:690rpx !important;
+  height: 80rpx;
+  background: #3b75db;
+  color: #fff;
+}
+

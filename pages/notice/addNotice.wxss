@@ -1,0 +1,188 @@
+
+.container {
+  /* margin-top: 0rpx; */
+  background: #F8F9FB;
+  padding-bottom: 30rpx;
+  }
+/* 标题 */
+.addTitle{
+  width: 690rpx;
+  margin: 0 auto;
+  position: relative;
+}
+.addTitle view{
+  font-size: 40rpx;
+  margin: 60rpx 0 25rpx 20rpx;
+}
+.addTitle input{
+  width: 61%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #fff;
+  padding: 0 250rpx 0 20rpx;
+  border-radius: 10rpx;
+}
+.addTitle text{
+  position: absolute;
+  right: 7%;
+  top: 92rpx;
+  color: #D6D6D6;
+}
+/* 公告内容 */
+.addContent{
+  width: 690rpx;
+  margin: 0 auto;
+}
+.addContent view{
+  font-size: 40rpx;
+  margin: 60rpx 0 25rpx 20rpx;
+}
+.addContent textarea{
+  width: 94%;
+  height: 600rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx 20rpx 80rpx;
+  line-height: 50rpx;
+}
+.addContent text{
+  position: absolute;
+  bottom: 100rpx;
+  right: 60rpx;
+  color: #D6D6D6;
+  font-size: 35rpx;
+}
+/* 发送到 */
+.sendTo{
+  width: 690rpx;
+  margin:  30rpx auto;
+  height: 95rpx;
+  background-color: #fff;
+  padding-top: 25rpx;
+}
+.sendTo>view{
+  height: 80rpx;
+  width: 96%;
+  margin: 0 auto;
+  border-bottom: 1px dashed #D8DFFB;
+  /* display: flex;
+  justify-content: flex-end; */
+}
+.sendTo>view>text{
+  float: left;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+}
+.sendTo>view view{
+  float: right;
+  margin-right: 40rpx;
+  margin-top: 0rpx;
+  font-size: 40rpx;
+}
+.sendTo .peopleNum{
+  font-size: 55rpx;
+  color: #3A75DB;
+  border-radius: 10rpx;
+}
+.sendTo>view image{
+  width: 20rpx;
+  height: 20rpx;
+  float: right;
+  margin-top:30rpx;
+  margin-right: 20rpx;
+}
+/* 确认 */
+.commit{
+  width: 690rpx;
+  margin: 0 auto;
+}
+.comTitle{
+  font-size: 40rpx; 
+  margin: 60rpx 0 25rpx 20rpx;
+}
+.tui-content{
+  width: 100%;
+  height: 100rpx;
+  /* padding: 25rpxn 0 !important; */
+  background: #fff;
+  border-radius: 10rpx;
+}
+.tui-content radio-group{
+  display: flex;
+  justify-content: space-around;
+  margin: 25rpx 0;
+}
+.tui-menu-list{
+  margin: 20rpx 0;
+}
+/* 操作 */
+.footdo{
+  width: 100%;
+  height: 110rpx;
+  padding: 20rpx 0 0 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
+.footdo>view{
+  text-align: center;
+}
+.footdo>view image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .top{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #f8f9fb;
+    width: 100%;
+    padding:20rpx 0;
+    z-index: 9;
+  }
+  .nav-fun{
+    width: 690rpx;
+    margin: 20rpx auto 0;
+  }
+  .nav-fun .nav-sea{
+    width: 330rpx;
+    height: 66rpx;
+    background-color: #fff;
+    border: 2rpx solid #c3d7fa;
+    box-sizing: border-box;
+    border-radius: 10rpx;
+  }
+  .nav-fun .nav-sea input{
+    width: 230rpx;
+    height: 100%;
+    border: none;
+    outline:none;
+    margin-left: 30rpx;
+    font-size: 22rpx;
+    color: #bbb;
+  }
+  .nav-fun .nav-sea .pla-sty{
+    font-size: 22rpx;
+    color:#bbb;
+  }
+  .nav-fun .nav-sea image{
+    width: 62rpx;
+    height: 100%;
+  } */
+

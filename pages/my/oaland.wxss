@@ -1,0 +1,30 @@
+/* pages/my/oaland.wxss */
+.container{
+  padding: 100rpx 60rpx 0;
+  box-sizing: border-box;
+}
+.pass-tit{
+  font-size: 30rpx;
+  color: #666;
+  height: 120rpx;
+  line-height: 120rpx;
+}
+.pass-con{
+  height: 120rpx;
+}
+.pass-con input{
+  width: 100%;
+  height: 100%;
+  background: #f6f9fd;
+  font-size: 30rpx;
+  color: #666;
+  padding-left:40rpx;
+  box-sizing: border-box;
+}
+button{
+  width:630rpx !important;
+  margin: 150rpx auto;
+  background: #3b75db;
+  font-size: 28rpx;
+  color: #fff;
+}

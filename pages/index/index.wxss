@@ -1,0 +1,17 @@
+/**index.wxss**/
+.work-wrap{
+  width: 690rpx;
+  margin: 50rpx auto 0;
+}
+.work-item{
+  width:230rpx;
+  padding-top: 90rpx;
+}
+.work-item image{
+  width:115rpx;
+  height: 110rpx;
+}
+.work-item view{
+  font-size: 30rpx;
+  color: #333;
+}

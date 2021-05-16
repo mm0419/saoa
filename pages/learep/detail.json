@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor":"#f5f5f5",
+  "navigationBarTitleText": "请假报备",
+  "usingComponents": {
+    "footer": "/components/footer/index"
+  }
+}

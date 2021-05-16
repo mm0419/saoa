@@ -1,0 +1,5 @@
+<!--pages/my/aboutus.wxml-->
+<view class="container">
+  <image src="/img/my/pic_1.jpg"></image>
+  <image src="/img/my/pic_2.jpg"></image>
+</view>

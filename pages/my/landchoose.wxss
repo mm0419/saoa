@@ -1,0 +1,28 @@
+/* pages/my/landchoose.wxss */
+.land-header{
+  display: block;
+  width:630rpx;
+  height: 306rpx;
+  margin:100rpx auto;
+}
+.container button{
+  width:630rpx !important;
+  padding: 0 !important;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  color: #fff;
+  background: #22ac38;
+}
+.container view{
+  margin: 40rpx auto 0;
+  width:630rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  background: #a3b9ec;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10rpx;
+}

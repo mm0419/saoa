@@ -1,0 +1,36 @@
+/* pages/my/remind.wxss */
+.new-wrap{
+  width:630rpx;
+  background: #f9fbfe;
+  margin: 60rpx auto;
+  padding: 0 30rpx;
+}
+.new-wrap .new-item{
+  width:630rpx;
+  height: 100rpx;
+  border-bottom: 2rpx dashed #c3cff3;
+}
+.new-wrap .new-item .new-tit{
+  width:330rpx;
+  font-size: 28rpx;
+  color: #202020;
+}
+.new-wrap .new-item .new-tit text{
+  color: #e12d15;
+}
+.new-wrap .new-item .new-jump{
+  width: 160rpx;
+  justify-content:center;
+  height: 66rpx;
+  background: #3b75db;
+  border-radius:10rpx ;
+}
+.new-wrap .new-item .new-jump image{
+  width:24rpx;
+  height: 20rpx;
+  margin-right:10rpx ;
+}
+.new-wrap .new-item .new-jump text{
+  font-size: 28rpx;
+  color: #fff;
+}

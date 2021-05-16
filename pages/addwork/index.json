@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "加班管理",
+  "usingComponents": {
+    "nav": "/components/nav/index",
+    "select": "/components/select/index"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "外出登记",
+  "usingComponents": {
+    "nav": "/components/nav/index",
+    "select": "/components/select/index"
+  }
+}

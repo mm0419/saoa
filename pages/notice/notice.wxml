@@ -1,0 +1,21 @@
+<view class="container">
+  <!-- 头图 -->
+  <view class="noticeHeadImg">
+    <image src="/img/ggglImg/noticeHeadImg.png"></image>
+  </view>
+  <!-- 通知信息 -->
+  <view class="notice">
+    <view class="noticeTitle">放假通知</view>
+    <view class="noticeContent">
+      根据《国务院办公厅关于2021年部分节假日安排的通知》，今年劳动节: 5月1日至5日放假调休,共5天。4月25日(星期日)、5月8日(星期六)。
+    </view>
+    <view class="noticeTime">2021.05.1413:51</view>
+  </view>
+  <!-- 人数信息 -->
+  <view class="peopleNum" style="margin: 0 auto 40rpx;">
+    <view class="commitNum"><text>200</text>人已确定</view>
+    <view class="nocommitNum"><text>37</text>人未确定</view>
+  </view>
+  <!-- 底部导航 -->
+  <footer prop-array='{{ navArray }}' bindmyevent="onMyEvent"></footer>
+</view>

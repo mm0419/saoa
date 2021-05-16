@@ -1,0 +1,89 @@
+
+<view class="container">
+<view class="top">
+  <nav prop-array='{{navArr}}' bindleaJump="leaJump"></nav>
+</view>
+<!-- 搜索 -->
+<view class="searchin">
+  <input type="text" placeholder="标题内容"/>
+  <button class="searchBtn" plain="true"><image src="/img/ggglImg/sousuoImg.png" alt="" class="sousuoImg"/></button>
+  <!-- <image src="/img/ggglImg/sousuoImg.png" alt="" class="sousuoImg"/> -->
+</view>
+<!-- 信息通知 -->
+<view class="information" style="margin-bottom:120rpx;padding: 60rpx 0;">
+  <view class="infoList">
+    <view class="infoListHead">
+      <image src="/img/ggglImg/tishiling.png" class="headLing"></image>
+      <text class="tzTitle" bindtap="noticeDetails">劳动节放假通知</text>
+      <image src="/img/ggglImg/tishipai.png" class="headTsp"></image>
+      <text class="tzState">需确认</text>
+    </view>
+    <view class="infoListContent">
+      <text bindtap="noticeDetails">关于“五一劳动节”放假计划，关于五一劳动节放假计划。</text>
+      <text class="contentTime" decode="{{true}}">2021-04-21&nbsp;09:11</text>
+    </view>
+    <image src="/img/ggglImg/jiaoImgTwo.png" class="stateBgImg"></image>
+    <text class="infoSendState">已发送</text>
+  </view>
+  <view class="infoList">
+    <view class="infoListHead">
+      <image src="/img/ggglImg/tishiling.png" class="headLing"></image>
+      <text class="tzTitle" bindtap="noticeDetails">妇女节放假通知</text>
+      <image src="/img/ggglImg/wuxuqueren.png" class="headTsp"></image>
+      <text class="tzStateno">无需确认</text>
+    </view>
+    <view class="infoListContent">
+      <text bindtap="noticeDetails">关于“妇女节”放假计划，关于妇女节放假计划。</text>
+      <text class="contentTime" decode="{{true}}">2021-04-21&nbsp;09:11</text>
+    </view>
+    <image src="/img/ggglImg/jiaoImgOne.png" class="stateBgImg"></image>
+    <text class="infoSendStateCg">草稿</text>
+  </view>
+  <view class="infoList">
+    <view class="infoListHead">
+      <image src="/img/ggglImg/tishiling.png" class="headLing"></image>
+      <text class="tzTitle" bindtap="noticeDetails">劳动节放假通知</text>
+      <image src="/img/ggglImg/tishipai.png" class="headTsp"></image>
+      <text class="tzState">需确认</text>
+    </view>
+    <view class="infoListContent">
+      <text bindtap="noticeDetails">关于“五一劳动节”放假计划，关于五一劳动节放假计划。</text>
+      <text class="contentTime" decode="{{true}}">2021-04-21&nbsp;09:11</text>
+    </view>
+    <image src="/img/ggglImg/jiaoImgTwo.png" class="stateBgImg"></image>
+    <text class="infoSendState">待确认</text>
+  </view>
+  <view class="infoList">
+    <view class="infoListHead">
+      <image src="/img/ggglImg/tishiling.png" class="headLing"></image>
+      <text class="tzTitle" bindtap="noticeDetails">劳动节放假通知</text>
+      <image src="/img/ggglImg/tishipai.png" class="headTsp"></image>
+      <text class="tzState">需确认</text>
+    </view>
+    <view class="infoListContent">
+      <text bindtap="noticeDetails">关于“五一劳动节”放假计划，关于五一劳动节放假计划。</text>
+      <text class="contentTime" decode="{{true}}">2021-04-21&nbsp;09:11</text>
+    </view>
+    <image src="/img/ggglImg/jiaoImgTwo.png" class="stateBgImg"></image>
+    <text class="infoSendState">待确认</text>
+  </view>
+  <view class="infoList">
+    <view class="infoListHead">
+      <image src="/img/ggglImg/tishiling.png" class="headLing"></image>
+      <text class="tzTitle" bindtap="noticeDetails">劳动节放假通知</text>
+      <image src="/img/ggglImg/tishipai.png" class="headTsp"></image>
+      <text class="tzState">需确认</text>
+    </view>
+    <view class="infoListContent">
+      <text bindtap="noticeDetails">关于“五一劳动节”放假计划，关于五一劳动节放假计划。</text>
+      <text class="contentTime" decode="{{true}}">2021-04-21&nbsp;09:11</text>
+    </view>
+    <image src="/img/ggglImg/jiaoImgTwo.png" class="stateBgImg"></image>
+    <text class="infoSendState">待确认</text>
+  </view>
+</view>
+<view class="checkPeople">
+  <image src="/img/ggglImg/chakanPeople.png"></image>
+  <view>查看告知人员</view>
+</view>
+</view>

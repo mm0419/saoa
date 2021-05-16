@@ -1,0 +1,37 @@
+/* components/footer/index.wxss */
+.nav-bar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  width: 100vw;
+  height: 100rpx;
+  justify-content: space-around;
+  border-top:1px solid #e1e1e1;
+  background-color:#fff;
+}
+.nav-bar .nav-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180rpx;
+  height: 100%;
+}
+.nav-bar .nav-item image{
+  width:50rpx;
+  height: 50rpx;
+  margin:8rpx;
+}
+.nav-bar .nav-item image:nth-of-type(2){
+  display: none;
+}
+.nav-bar .nav-item.checked image:nth-of-type(1){
+  display: none;
+}
+.nav-bar .nav-item.checked image:nth-of-type(2){
+  display: block;
+}
+.nav-bar .nav-item text{
+  font-size:20rpx;
+  color: #333;
+}

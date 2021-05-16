@@ -1,0 +1,77 @@
+<!--pages/mailist/index.wxml-->
+<view class="container">
+
+  <view class="mai-search dis-flex">
+    <input placeholder="姓名部门" />
+    <image src="/img/leaman/icon_7.png"></image>
+  </view>
+
+  <view class="mai-dep">
+    <view class="mai-dep-con">
+      <view class="mai-dep-item show">
+        <view class="mai-item-1">
+          <view class="mai-con-wrap dis-flex vie-jus vie-cen">
+            <text>分院临床1科</text>
+            <image src="/img/leaman/icon_8.png"></image>
+          </view>  
+        </view>
+        <view class="mai-item-con">
+          <view class="mai-con-1 dis-flex vie-cen">
+            <radio-group>
+              <radio>维兹</radio>
+            </radio-group>
+            <radio-group>
+              <radio>卡利法</radio>
+            </radio-group>
+          </view>
+          <view class="mai-con-1 dis-flex vie-cen">
+            <radio-group>
+              <radio>布鲁诺</radio>
+            </radio-group>
+            <radio-group>
+              <radio>马尔斯</radio>
+            </radio-group>
+          </view>
+          <view class="mai-con-1 dis-flex vie-cen">
+            <radio-group>
+              <radio>维兹</radio>
+            </radio-group>
+            <radio-group>
+              <radio>卡利法</radio>
+            </radio-group>
+          </view>
+        </view>
+        
+      </view>
+      <view class="mai-dep-item">
+        <view class="mai-item-1 ">
+          <view class="mai-con-wrap dis-flex vie-jus vie-cen">
+            <text>分院临床1科</text>
+            <image src="/img/leaman/icon_8.png"></image>
+          </view>  
+        </view>
+        
+      </view>
+      <view class="mai-dep-item">
+        <view class="mai-item-1 ">
+          <view class="mai-con-wrap dis-flex vie-jus vie-cen">
+            <text>分院临床1科</text>
+            <image src="/img/leaman/icon_8.png"></image>
+          </view>  
+        </view>
+        
+      </view>
+      <view class="mai-dep-item">
+        <view class="mai-item-1 ">
+          <view class="mai-con-wrap dis-flex vie-jus vie-cen">
+            <text>分院临床1科</text>
+            <image src="/img/leaman/icon_8.png"></image>
+          </view>  
+        </view>
+        
+      </view>
+      
+    </view>
+  </view>
+
+</view>

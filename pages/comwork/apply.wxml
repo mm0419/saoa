@@ -1,0 +1,87 @@
+<!--pages/comwork/apply.wxml-->
+<view class="container">
+    <view class="app-nav">
+      <nav prop-array='{{navArr}}' bindleaJump="leaJump"></nav>
+    </view>
+    <view class="app-title">
+      调休信息
+    </view>
+    <view class="app-from-1">
+      
+      <view class="app-data-item dis-flex">
+        <view class="app-item-tit"><text>*</text>加班时间选择</view>
+        <view class="app-item-con">
+          <select prop-array='{{sArr1}}'  bind:select='select' />
+        </view>
+      </view>
+      <view class="app-data-item dis-flex">
+        <view class="app-item-tit"><text>*</text>休假开始时间</view>
+        <view class="app-item-con">
+          <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+            <text>{{time}}</text>
+          </picker>
+        </view>
+      </view>
+      <view class="app-data-item dis-flex">
+        <view class="app-item-tit"><text>*</text>休假结束时间</view>
+        <view class="app-item-con">
+          <picker mode="multiSelector" bindchange="bindMultiEndPickerChange" bindcolumnchange="bindMultiEndPickerColumnChange" value="{{multiEndIndex}}" range="{{multiEndArray}}">
+            <text>{{endtime}}</text>
+          </picker>
+        </view>
+      </view>
+      <view class="app-data-item dis-flex">
+        <view class="app-item-tit"><text>*</text>休息累计</view>
+        <view class="app-item-con">
+          <view class="app-timer">
+            {{timeDifference}}
+            <text>小时</text>
+          </view>
+        </view>
+      </view>
+      <view class="app-data-item dis-flex">
+        <view class="app-item-tit"><text>*</text>原因说明</view>
+        <view class="app-item-con">
+          <textarea maxlength="15" value="{{seaTextVal}}" bindtap="cleDefault" bindblur="addDefault"></textarea>
+        </view>
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="app-from-2">
+      <view class="app-from-item clearfix pd20">
+        <view class="app-icon"></view>
+        <view class="app-item-con dis-flex vie-jus">
+          <view class="app-item-tit">审核人</view>
+          <view class="app-item-name">张主管</view>
+          <image src="/img/leaman/icon_6.png" bindtap="jumpMai"></image>
+        </view>
+      </view>
+      <view class="app-from-item clearfix n1 pd20">
+        <view class="app-icon"></view>
+        <view class="app-item-con dis-flex vie-jus">
+          <view class="app-item-tit">审核人</view>
+          <view class="app-item-name">李主管</view>
+          <image src="/img/leaman/icon_6.png" bindtap="jumpMai"></image>
+        </view>
+      </view>
+      <view class="app-from-item clearfix n1 pd20">
+        <view class="app-icon"></view>
+        <view class="app-item-con dis-flex vie-jus">
+          <view class="app-item-tit">审核人</view>
+          <view class="app-item-name">人事主管</view>
+          <image src="/img/leaman/icon_6.png" bindtap="jumpMai"></image>
+        </view>
+      </view>
+      <view class="app-from-item clearfix n1">
+        <view class="app-icon"></view>
+        <view class="app-item-con dis-flex vie-jus">
+          <view class="app-item-tit">审核人</view>
+          <view class="app-item-name">总院长</view>
+          <image src="/img/leaman/icon_6.png" bindtap="jumpMai"></image>
+        </view>
+      </view>
+    </view>
+    <view class="app-foot">
+      <button>提交</button>
+    </view>
+</view>

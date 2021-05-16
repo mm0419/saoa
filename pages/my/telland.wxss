@@ -1,0 +1,58 @@
+/* pages/my/telland.wxss */
+.tel-wrap{
+  width: 690rpx;
+  margin: 100rpx auto 0;
+  background-color: #f6f9fd;
+}
+.tel-wrap .tel-item{
+  padding: 0 30rpx;
+  height: 100rpx;
+  border-bottom: 2rpx dashed #9fb7dc;
+}
+.tel-wrap .tel-item .tel-tit{
+  width:150rpx;
+  font-size: 30rpx;
+  color: #666;
+}
+.tel-wrap .tel-item input{
+  width:250rpx;
+  margin:0 40rpx;
+  font-size:30rpx;
+  color: #363636;
+}
+.tel-wrap .tel-item button{
+  width:150rpx !important;
+  height:54rpx !important;
+  line-height: 54rpx;
+  padding: 0;
+  background: #3b75db;
+  font-size: 22rpx;
+  color: #fff;
+}
+.tel-wrap .tel-item .tel-tips{
+  font-size: 30rpx;
+  color: #666;
+}
+.other-wrap{
+  width:690rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  justify-content:flex-end;
+}
+.other-wrap .other-land{
+  width:200rpx;
+}
+.other-wrap .other-land image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.other-wrap .other-land text{
+  font-size: 28rpx;
+  color: #3b75db;
+}
+.land-btn{
+  width:630rpx !important;
+  background: #3b75db;
+  font-size: 28rpx;
+  color: #fff;
+}

@@ -1,0 +1,82 @@
+<!--pages/comwork/detail.wxml-->
+<view class="container">
+    <view class="rep-header dis-flex vie-br">
+      <view class="rep-head-item dis-flex">
+        <text>申请人</text>王主管
+      </view>
+      <view class="rep-head-item dis-flex">
+        <text>所属部门</text>分院临床1科
+      </view>
+      <view class="rep-head-item dis-flex">
+        <text>职位</text>医生助理
+      </view>
+    </view>
+    <view class="lea-det-1">
+      <view class="lea-det-item dis-flex">
+        <view class="tit">加班时间</view>
+        <text class="con">2020.3.15 18:00 3小时</text>
+      </view>
+      <view class="lea-det-item dis-flex">
+        <view class="tit"></view>
+        <text class="con">2020.3.15 18:00 3小时</text>
+      </view>
+      <view class="lea-det-item dis-flex">
+        <view class="tit">填表时间</view>
+        <text class="con">2020.3.15 18:00</text>
+      </view>
+      <view class="lea-det-item dis-flex">
+        <view class="tit">休假开始时间</view>
+        <text class="con">2021.2.15 09:00:00</text>
+      </view>
+      <view class="lea-det-item dis-flex">
+        <view class="tit">休假结束时间</view>
+        <text class="con">2021.2.15 09:00:00</text>
+      </view>
+      <view class="lea-det-item dis-flex mt22">
+        <view class="tit">休息累积</view>
+        <view class="con1 dis-flex">8<text class="con">/小时</text></view>
+      </view>
+      <view class="lea-det-item dis-flex mt22">
+        <view class="tit">原因说明</view>
+        <view class="con1 dis-flex"><text class="con">世界那么大，我想去看看。</text></view>
+      </view>
+      <image src="/img/leaman/icon_ing.png" class="state"></image>
+    </view>
+    <view class="line"></view>
+    
+    <view class="lea-det-2">
+      <view class="lea-exa-item clearfix w1">
+        <view class="sta-icon"></view>
+        <view class="sta-con">
+          <view class="sta-info dis-flex vie-jus">
+            <image src="/img/leaman/icon_2.png" class="sta-icon2"></image>
+            <view class="sta-name">王主管</view>
+            <view class="sta-line"></view>
+            <view class="sta-time">2021-3-23 09:30:00</view>
+          </view>
+          <view class="sta-rem">请填写备注意见,非必填请填写备注意见,非必填请填写备注意见</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="lea-foot dis-flex">
+      <button class="lea-mod-1 dis-flex" hover-class="lea-mod-2">
+        <view class="btn-icon">
+          <image src="/img/leaman/icon_3.png"></image>
+        </view>
+        <text>修改</text>
+      </button>
+      <button class="lea-agr-1 dis-flex" hover-class="lea-agr-2">
+        <view class="btn-icon">
+          <image src="/img/leaman/icon_4.png"></image>
+        </view>
+        <text>同意</text>
+      </button>
+      <button class="lea-ref-1 dis-flex" hover-class="lea-ref-2">
+        <view class="btn-icon">
+          <image src="/img/leaman/icon_5.png"></image>
+        </view>
+        <text>拒绝</text>
+      </button>
+    </view>
+</view>

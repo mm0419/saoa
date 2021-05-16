@@ -1,0 +1,52 @@
+
+<view class="container">
+<view class="top">
+  <nav prop-array='{{navArr}}' bindleaJump="leaJump"></nav>
+</view>
+<!-- 标题 -->
+<view class="addTitle">
+  <view>标题</view>
+  <input type="text" />
+  <text>少于20字</text>
+</view> 
+<!-- 公告内容 -->
+<view class="addContent">
+  <view>公告内容</view>
+  <textarea name="" id="" maxlength="-1"></textarea>
+  <text>不少于300字</text>
+</view>
+<!-- 发送到 -->
+<view class="sendTo">
+ <view>
+   <text>发送到人/部门</text>
+   <image src="/img/ggglImg/jiantouRight.png"></image>
+   <view><text class="peopleNum" bindtap="lookDetails">100</text><text bindtap="lookDetails">人</text></view>
+    
+ </view>
+</view>
+<!-- 确认 -->
+<view class="commit" style="margin-bottom:170rpx;">
+  <view class="comTitle">是否需要确认</view>
+  <view class="tui-content">
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}" wx:key="key">
+      <view class="tui-menu-list"><radio color="#007aff" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}</view>
+      </label>
+    </radio-group>
+    <!-- <view class="tui-show-name">
+      {{radioStr}}
+    </view>  -->
+</view>
+</view>
+<!-- 操作 -->
+<view class="footdo">
+  <view>
+    <image src="/img/ggglImg/savecg.png"></image>
+    <view>保存草稿</view>
+  </view>
+  <view>
+    <image src="/img/ggglImg/sendInfo.png"></image>
+    <view>发布</view>
+  </view>
+</view>
+</view> 

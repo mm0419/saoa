@@ -1,0 +1,29 @@
+<!--pages/my/index.wxml-->
+<view class="container">
+  <image src="/img/my/header.png" class="my-header"></image>
+  <view class="land-tips">未登录</view>
+  <view class="land-ope">
+    <view class="land-item dis-flex vie-cen">
+      <image src="/img/my/icon_1.jpg"></image>
+      <text>个人名片</text>
+    </view>
+    <view class="land-item dis-flex vie-cen">
+      <image src="/img/my/icon_2.jpg"></image>
+      <text>修改密码</text>
+    </view>
+    <view class="land-item dis-flex vie-cen">
+      <image src="/img/my/icon_3.jpg"></image>
+      <text>消息提醒</text>
+    </view>
+    <view class="land-item dis-flex vie-cen">
+      <image src="/img/my/icon_4.jpg"></image>
+      <text>切换账号</text>
+    </view>
+    <view class="land-item dis-flex vie-cen">
+      <image src="/img/my/icon_1.jpg"></image>
+      <text>联系我们</text>
+    </view>
+  </view>
+  <button>退出登录</button>
+  <footer prop-array='{{ navArray }}' bindmyevent="onMyEvent"></footer>
+</view>

@@ -1,0 +1,19 @@
+/* pages/my/mycard.wxss */
+.card-wrap{
+  width:630rpx;
+  margin: 100rpx auto;
+  padding:0 30rpx;
+  background: #f9fbfe;
+}
+.card-wrap .card-item{
+  height: 100rpx;
+  border-bottom: 2rpx dashed #c3cff3;
+}
+.card-wrap .card-item text:nth-of-type(1){
+  font-size: 30rpx;
+  color: #202020;
+}
+.card-wrap .card-item text:nth-of-type(2){
+  font-size: 28rpx;
+  color: #828282;
+}

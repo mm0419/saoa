@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "调休申请",
+  "usingComponents": {
+    "nav": "/components/nav/index",
+    "select": "/components/select/index"
+  }
+}

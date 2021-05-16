@@ -1,0 +1,94 @@
+/* components/single-dropdown-select/index.wxss */
+
+.ms-content-box {
+  width: 170rpx;
+}
+
+.ms-content {
+  border: 2rpx solid #c3d7fa;
+  background: white;
+  font-size: 22rpx;
+  position: relative;
+  height: 66rpx;
+  line-height: 66rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx 10rpx 0 0;
+}
+
+.ms-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 40rpx 0 6rpx;
+  font-size: 22rpx;
+  color: #bbb;
+}
+
+.ms-options {
+  background: white;
+  width: inherit;
+  position: absolute;
+  border-top: none;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.ms-option.selected{
+  background-color: #9aaed2;
+  color: #fff;
+}
+
+.ms-option {
+  height: 66rpx;
+  line-height: 66rpx;
+  border: 2rpx solid #c3d7fa;
+  border-top: none;
+  padding: 0 6rpx;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 22rpx;
+  color: #b1b1b1;
+  box-sizing: border-box;
+}
+
+.ms-item:first-child {
+  border-top: none;
+}
+
+.icon-right, .icon-down, .icon-up {
+  display: inline-block;
+  padding-right: 13rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 10rpx;
+}
+
+.icon-right::after, .icon-down::after, .icon-up::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  bottom: 2rpx;
+  margin-left: 10rpx;
+  height: 10rpx;
+  width: 10rpx;
+  border: solid #333;
+  border-width: 2rpx 2rpx 0 0;
+}
+
+.icon-right::after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.icon-down::after {
+  bottom: 14rpx;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.icon-up::after {
+  bottom: 12rpx;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

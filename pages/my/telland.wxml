@@ -1,0 +1,31 @@
+<!--pages/my/telland.wxml-->
+<view class="container">
+
+  <view class="tel-wrap">
+    <view class="tel-item dis-flex vie-cen">
+      <view class="tel-tit">手机号码</view>
+      <input placeholder="输入有效手机号"></input>
+      <view class="tel-req">
+        <button>获取验证码</button>
+        <text></text>
+      </view>
+    </view>
+    <view class="tel-item dis-flex vie-cen">
+      <view class="tel-tit">验证码</view>
+      <input placeholder="输入6位验证码"></input>
+    </view>
+    <view class="tel-item dis-flex vie-jus vie-cen">
+      <view class="tel-tips">保证此号码供以后授权使用</view>
+      <view class="tel-btn">
+        <switch></switch>
+      </view>
+    </view>
+  </view>
+  <view class="other-wrap dis-flex">
+    <view class="other-land dis-flex vie-jus vie-cen">
+      <image src="/img/my/icon_1.png"></image>
+      <text>其他方式登录</text>
+    </view>
+  </view>
+  <button class="land-btn">登陆</button>
+</view>

@@ -1,0 +1,93 @@
+<view class="container">
+  <!-- 搜索 -->
+  <view class="searchin">
+    <input type="text" placeholder="姓名部门"/>
+    <button class="searchBtn" plain="true"><image src="/img/ggglImg/sousuoImg.png" alt="" class="sousuoImg"/></button>
+    <!-- <image src="/img/ggglImg/sousuoImg.png" alt="" class="sousuoImg"/> -->
+  </view>
+  <!-- 选择内容 -->
+  <view class="chooseInfo">
+    <view class="allChoose">
+      <image src="/img/ggglImg/duoNochange.png" class="allduoxuan"></image>
+      <text>全选</text>
+      <!-- <label class="checkboxx">
+        <checkbox value="cb" checked="true"/>全选
+      </label> -->
+    </view>
+    <view class="chooseProject">
+      <view class="mai-dep">
+        <view class="mai-dep-con">
+          <view class="mai-dep-item">
+            <view class="mai-item-1 ">
+              <view class="mai-con-wrap dis-flex vie-jus vie-cen">
+                <image src="/img/ggglImg/duoNochange.png" class="duoxuan"></image>
+                <text>分院临床1科</text>
+                <image src="/img/leaman/icon_8.png"></image>
+              </view>  
+            </view>
+          </view>
+          <view class="mai-dep-item">
+            <view class="mai-item-1 ">
+              <view class="mai-con-wrap dis-flex vie-jus vie-cen">
+                <image src="/img/ggglImg/duoNochange.png" class="duoxuan"></image>
+                <text>分院临床1科</text>
+                <image src="/img/leaman/icon_8.png"></image>
+              </view>  
+            </view>
+          </view>
+          <view class="mai-dep-item">
+            <view class="mai-item-1 ">
+              <view class="mai-con-wrap dis-flex vie-jus vie-cen">
+                <image src="/img/ggglImg/duoNochange.png" class="duoxuan"></image>
+                <text>分院临床1科</text>
+                <image src="/img/leaman/icon_8.png"></image>
+              </view>  
+            </view>
+          </view>
+          <view class="mai-dep-item show">
+            <view class="mai-item-1">
+              <view class="mai-con-wrap dis-flex vie-jus vie-cen">
+                <image src="/img/ggglImg/duoNochange.png" class="duoxuan"></image>
+                <text>分院临床1科</text>
+                <image src="/img/leaman/icon_8.png"></image>
+              </view>  
+            </view>
+            <view class="mai-item-con">
+              <view class="mai-con-1 dis-flex vie-cen">
+                <radio-group>
+                  <radio  color="#007aff">维兹</radio>
+                </radio-group>
+                <radio-group>
+                  <radio color="#007aff">卡利法</radio>
+                </radio-group>
+              </view>
+              <view class="mai-con-1 dis-flex vie-cen">
+                <radio-group>
+                  <radio  color="#007aff">布鲁诺</radio>
+                </radio-group>
+                <radio-group>
+                  <radio  color="#007aff">马尔斯</radio>
+                </radio-group>
+              </view>
+              <view class="mai-con-1 dis-flex vie-cen">
+                <radio-group>
+                  <radio  color="#007aff">维兹</radio>
+                </radio-group>
+                <radio-group>
+                  <radio  color="#007aff">卡利法</radio>
+                </radio-group>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 选定人数 -->
+  <view class="chooseNum">已选定<text>100</text>人</view>
+  <!-- 尾 -->
+  <view class="footerCommit">
+    <image src="/img/ggglImg/queding.png"></image>
+    <view>确定</view>
+  </view>
+</view>

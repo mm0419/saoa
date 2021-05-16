@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "请假报备",
+  "usingComponents": {
+    "nav": "/components/nav/index",
+    "select": "/components/select/index"
+  }
+}

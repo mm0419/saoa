@@ -1,0 +1,27 @@
+/* pages/my/passtips.wxss */
+.tips1{
+   font-size: 28rpx;
+   color: #cfd7e4;
+   text-align: center;
+   margin: 350rpx auto 0;
+}
+.tips2{
+  font-size: 28rpx;
+  color: #cfd7e4;
+  text-align: center;
+  margin: 20rpx auto 0;
+}
+.tips3{
+  font-size: 36rpx;
+  color: #8399bf;
+  text-align: center;
+  margin: 50rpx auto 0;
+}
+button{
+  width:280rpx !important;
+  background: #3b75db;
+  height: 80rpx;
+  font-size: 28rpx;
+  color: #fff;
+  margin: 70rpx auto;
+}

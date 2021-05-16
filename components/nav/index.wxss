@@ -1,0 +1,27 @@
+/* components/footer/index.wxss */
+.nav{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 100rpx;
+  justify-content: space-between;
+}
+.nav text{
+  width: 340rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #fff;
+  color: #989898;
+  font-size: 24rpx;
+  border-top:4rpx solid #fff;
+  border-radius: 20rpx 20rpx 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.nav text.checked{
+  border-top:4rpx solid #5869a1;
+  background-color: #dee5f0;
+  color: #4d6388;
+}
+

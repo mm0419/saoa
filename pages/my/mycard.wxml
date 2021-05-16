@@ -1,0 +1,33 @@
+<!--pages/my/mycard.wxml-->
+<view class="container">
+  <view class="card-wrap">
+    <view class="card-item dis-flex vie-jus vie-cen">
+      <text>姓名</text>
+      <text>王大胖</text>
+    </view>
+    <view class="card-item dis-flex vie-jus vie-cen">
+      <text>性别</text>
+      <text>男</text>
+    </view>
+    <view class="card-item dis-flex vie-jus vie-cen">
+      <text>生日</text>
+      <text>1989-08-24</text>
+    </view>
+    <view class="card-item dis-flex vie-jus vie-cen">
+      <text>OA账号</text>
+      <text>王大胖123</text>
+    </view>
+    <view class="card-item dis-flex vie-jus vie-cen">
+      <text>部门</text>
+      <text>分院临床1科</text>
+    </view>
+    <view class="card-item dis-flex vie-jus vie-cen">
+      <text>职位</text>
+      <text>员工</text>
+    </view>
+    <view class="card-item dis-flex vie-jus vie-cen">
+      <text>手机号</text>
+      <text>13112345678</text>
+    </view>
+  </view>
+</view>

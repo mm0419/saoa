@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="work-wrap dis-flex vie-br">
+    <view class="work-item dis-flex vie-col vie-jus vie-cen" wx:for="{{ classList }}" data-index="{{index}}" wx:key="this" bindtap="toIndex">
+      <image src="{{ item.icon }}"></image>
+      <view>{{ item.name }}</view>
+    </view>
+  </view>
+  <footer prop-array='{{ navArray }}' bindmyevent="onMyEvent"></footer>
+</view>

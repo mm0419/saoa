@@ -1,0 +1,295 @@
+/* pages/leaman/detail.wxss */
+.container{
+  background:#f8f9fb;
+  padding-bottom: 200rpx;
+}
+.lea-det-tips{
+  padding-top: 50rpx;
+  justify-content:flex-end;
+}
+.lea-det-tips .lea-tips-wrap{
+  width:300rpx;
+  height: 80rpx;
+  background: #fff;
+}
+.lea-det-tips .lea-tips-wrap image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: -30rpx;
+}
+.lea-det-tips .lea-tips-wrap .lea-tips-tit{
+   line-height: 80rpx;
+   font-size: 24rpx;
+   margin-left: 24rpx;
+   color: #484848;
+}
+.lea-det-tips .lea-tips-wrap .lea-tips-tit text{
+  color: #598eee;
+  font-size: 36rpx;
+}
+.lea-det-title{
+  width:630rpx;
+  margin: 0 auto;
+  height: 150rpx;
+  line-height: 150rpx;
+}
+.lea-det-title text{
+  font-size: 28rpx;
+}
+.lea-det-title text:nth-of-type(1){
+  color: #484848;
+  margin-right: 30rpx;
+}
+.lea-det-title text:nth-of-type(2){
+  color: #787878;
+}
+.lea-det-title text:nth-of-type(3){
+  color: #b1b1b1;
+  float:right;
+}
+.lea-det-1{
+  position: relative;
+  width:630rpx;
+  margin:0 auto;
+  background: #fff;
+  padding: 0 30rpx 50rpx;
+  border-radius: 20rpx;
+}
+.lea-det-1 .lea-det-tit1{
+  width:100%;
+  height: 60rpx;
+  align-items: flex-end;
+}
+.lea-det-1 .lea-det-tit1 image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-top:-20rpx;
+  margin-right: 20rpx;
+}
+.lea-det-1 .lea-det-tit1 text{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #3b75db;
+}
+.lea-det-1 .lea-det-item{
+  margin-top: 40rpx;
+  align-items: baseline;
+}
+.lea-det-1 .lea-det-item.mt22{
+  margin-top: 22rpx;
+}
+.lea-det-1 .lea-det-item .tit{
+  display: inline-block;
+  width: 180rpx;
+  font-size:30rpx;
+  font-weight: bold;
+  color: #484848;
+  text-align: justify;
+  text-align-last: justify;
+  margin-right: 30rpx;
+}
+.lea-det-1 .lea-det-item .con{
+  font-size: 30rpx;
+  color: #b1b1b1;
+  font-weight: normal;
+}
+.lea-det-1 .lea-det-item .con1{
+  font-size: 40rpx;
+  color: #3b75db;
+  font-weight: bold;
+  align-items: baseline;
+}
+.lea-det-1 .lea-det-item .con-btn radio-group{
+  margin-right: 50rpx;
+  font-size: 30rpx;
+  color: #b1b1b1;
+  font-weight: bold;
+}
+.lea-det-1 .state{
+  position: absolute;
+  right:30rpx;
+  top:30rpx;
+  width:120rpx;
+  height: 120rpx;
+}
+.lea-det-2{
+  width:630rpx;
+  margin:0 auto;
+  background: #fff;
+  padding: 30rpx 30rpx 50rpx;
+  border-radius: 20rpx;
+}
+.lea-det-2 .lea-exa-item{
+  width:630rpx;
+  background-repeat: repeat-y;
+  background-size: 2rpx 10rpx;
+  background-position: 14rpx 0;
+}
+.lea-det-2 .lea-exa-item .sta-icon{
+  width:30rpx;
+  height: 60rpx;
+  background-size: 30rpx 60rpx;
+  float: left;
+}
+.lea-det-2 .lea-exa-item .sta-con{
+  width: 590rpx;
+  float: right;
+}
+.lea-det-2 .lea-exa-item .sta-info{
+  width:100%;
+  height: 60rpx;
+  align-items: flex-end;
+}
+.lea-det-2 .lea-exa-item .sta-icon2{
+  width:30rpx;
+  height: 60rpx;
+  margin-right: 10rpx;
+}
+.lea-det-2 .lea-exa-item .sta-name{
+  font-size: 28rpx;
+  line-height: 1em;
+  color: #484848;
+}
+.lea-det-2 .lea-exa-item .sta-line{
+  width:160rpx;
+  height: 30rpx;
+  background-image: url(https://cs1.ejiubo.net/img/oa/icon_line_5.png);
+  background-size: 10rpx 2rpx;
+  background-repeat: repeat-x;
+  background-position: left center;
+  margin:0 20rpx;
+}
+.lea-det-2 .lea-exa-item .sta-time{
+  font-size: 28rpx;
+  line-height: 1em;
+  color: #b1b1b1;
+}
+.lea-det-2 .lea-exa-item .sta-rem{
+  width:100%;
+  height: 100rpx;
+  margin: 20rpx auto 0;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  line-height: 1.2em;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.lea-det-2 .lea-exa-item.y1{
+  background-image: url(https://cs1.ejiubo.net/img/oa/icon_line_1.png);
+}
+.lea-det-2 .lea-exa-item.y1 .sta-icon{
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_yes_1.png);
+}
+.lea-det-2 .lea-exa-item.y2 .sta-icon{
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_yes_2.png);
+}
+.lea-det-2 .lea-exa-item.y1 .sta-rem{
+  border: 2rpx dashed #578e57;
+  background-color:rgba(146, 242, 146, .5);
+  color: #578e57;
+}
+.lea-det-2 .lea-exa-item.w1{
+  background-image: url(https://cs1.ejiubo.net/img/oa/icon_line_2.png); 
+}
+.lea-det-2 .lea-exa-item.w1 .sta-icon{
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_ing_1.png);
+}
+.lea-det-2 .lea-exa-item.w2 .sta-icon{
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_ing_2.png);
+}
+.lea-det-2 .lea-exa-item.w1 .sta-rem{
+  border: 2rpx dashed #ce9542;
+  background-color:rgba(255, 180, 80, .5);
+  color: #ce9542;
+}
+.lea-det-2 .lea-exa-item.n1{
+  background-image: url(https://cs1.ejiubo.net/img/oa/icon_line_3.png); 
+}
+.lea-det-2 .lea-exa-item.n1 .sta-icon{
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_no_1.png);
+}
+.lea-det-2 .lea-exa-item.n2 .sta-icon{
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_no_2.png);
+}
+.lea-det-2 .lea-exa-item.n1 .sta-rem{
+  border: 2rpx dashed #ec4343;
+  background-color:rgba(255, 70, 70, .5);
+  color: #ec4343;
+}
+.lea-det-2 .lea-exa-item.h1{
+  background-image: url(https://cs1.ejiubo.net/img/oa/icon_line_4.png); 
+}
+.lea-det-2 .lea-exa-item.h1 .sta-icon{
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_nothing_1.png);
+}
+.lea-det-2 .lea-exa-item.h2 .sta-icon{
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_nothing_2.png);
+}
+.lea-det-2 .lea-exa-item.h1 .sta-rem{
+  border: 2rpx dashed #c8c8c8;
+  background-color:rgba(240, 240, 240, .5);
+  color: #c8c8c8;
+}
+.lea-foot{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width:750rpx;
+  height: 90rpx;
+}
+.lea-foot button{
+  flex:1;
+  height: 90rpx;
+  border-radius: 0;
+  color: #fff;
+}
+.lea-foot button .btn-icon{
+  width:40rpx;
+  height: 40rpx;
+  padding: 10rpx;
+  border-radius: 10rpx;
+  margin-right: 16rpx;
+}
+.lea-foot button text{
+  line-height: 50rpx;
+}
+.lea-foot button .btn-icon image{
+  width:100%;
+  height: 100%;
+}
+.lea-foot .lea-mod-1{
+  background-color: #5f8cdd;
+}
+.lea-foot .lea-mod-1 .btn-icon{
+  background-color: #83aaef;
+}
+.lea-foot .lea-agr-1{
+  background-color: #66ce8f;
+}
+.lea-foot .lea-agr-1 .btn-icon{
+  background-color: #86dfa9;
+}
+.lea-foot .lea-ref-1{
+  background-color: #e6946c;
+}
+.lea-foot .lea-ref-1 .btn-icon{
+  background-color: #f0b498;
+}
+.lea-foot .lea-mod-2{
+  background-color: #9cb8ea;
+}
+.lea-foot .lea-mod-2 .btn-icon{
+  background-color: #709eec;
+}
+.lea-foot .lea-agr-2{
+  background-color: #91deb0;
+}
+.lea-foot .lea-agr-2 .btn-icon{
+  background-color: #5ac786;
+}
+.lea-foot .lea-ref-2{
+  background-color: #ebaa8c;
+}
+.lea-foot .lea-ref-2 .btn-icon{
+  background-color: #e88453;
+}

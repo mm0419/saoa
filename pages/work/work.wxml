@@ -1,0 +1,19 @@
+<!--index.wxml-->
+
+<view class="ns"> 
+  <image src="/img/logo.png" alt=""></image>
+  <view class="nslogo">天津河西圣安医院<button><image src="/img/menu.png"></image></button></view>
+  
+</view>
+
+
+<view class="container">
+  <view class="navBar">
+  <view class="navItem" wx:for="{{ navInfor }}" wx:key="id">
+  <navigator url="{{item.url}}">
+    <image src="{{ item.icon }}"></image>
+    <view class="font12 navTit">{{ item.title }}</view>
+  </navigator>
+  </view>
+</view> 
+</view>

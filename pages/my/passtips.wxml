@@ -1,0 +1,7 @@
+<!--pages/my/passtips.wxml-->
+<view class="container">
+  <view class="tips1">您的密码为初始密码</view>
+  <view class="tips2">为保证您的数据隐私</view>
+  <view class="tips3">请尽快修改密码</view>
+  <button>去改密码</button>
+</view>

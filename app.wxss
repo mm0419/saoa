@@ -1,0 +1,58 @@
+/**app.wxss**/
+view, text, label, input, navigator, button, textarea {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: "PingFangSC-Regular";
+}
+.container {
+  width: 100vw;
+  background-color: #fff;
+}
+.dis-flex{
+  display: flex;
+}
+.vie-col{
+  flex-direction: column;
+}
+.vie-jus{
+  justify-content: space-between;
+}
+.vie-cen{
+  align-items: center;
+}
+.vie-br{
+  flex-wrap: wrap;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	width:100%;
+	height:0;
+	clear:both;
+}
+.line{
+  width:690rpx;
+  height: 2rpx;
+  margin: 30rpx auto;
+  background-color: #cfd9f9;
+}
+radio .wx-radio-input{
+  border: none;
+  width:30rpx;
+  height: 30rpx;
+  background-image:url(https://cs1.ejiubo.net/img/oa/icon_2.png);
+  background-repeat:no-repeat ;
+  background-size: 30rpx 30rpx;
+}
+radio .wx-radio-input.wx-radio-input-checked{
+  background-color:transparent !important; 
+}
+radio .wx-radio-input.wx-radio-input-checked::before{
+    content: '';
+    width: 30rpx;
+    height: 30rpx;  
+    transform: translate(-50%, -50%) scale(1);
+    background-image:url(https://cs1.ejiubo.net/img/oa/icon_2a.png); 
+    background-size:30rpx 30rpx;
+}

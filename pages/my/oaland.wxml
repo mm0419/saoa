@@ -1,0 +1,17 @@
+<!--pages/my/oaland.wxml-->
+<view class="container">
+  <view class="pass-item">
+    <view class="pass-tit">OA账号</view>
+    <view class="pass-con">
+      <input placeholder="请输入您的账号"></input>
+    </view>
+  </view>
+  <view class="pass-item">
+    <view class="pass-tit">密码</view>
+    <view class="pass-con">
+      <input placeholder="请输入您的密码"></input>
+    </view>
+  </view>
+  <button>登陆</button>
+
+</view>

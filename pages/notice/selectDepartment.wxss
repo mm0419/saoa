@@ -1,0 +1,154 @@
+.container {
+  /* margin-top: 0rpx; */
+  background-color: #F8F9FB;
+  padding-bottom: 40rpx;
+}
+/* 搜索 */
+.searchin{
+  margin-top: 100rpx;
+  width: 690rpx;
+  padding: 30rpx 0;
+  margin: 0 auto;
+  position: relative;
+}
+.searchin input{
+  width: 82%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10rpx;
+  padding: 0 100rpx 0 20rpx;
+}
+.searchin .searchBtn{
+  border: none;
+  position: absolute;
+  right: 50rpx;
+  top: 50rpx;
+  width: 47rpx;
+  height: 47rpx;
+  padding: 0;
+  /* background: url(/img/ggglImg/sousuoImg.png) no-repeat; */
+}
+.sousuoImg{
+  width: 45rpx;
+  height: 45rpx;
+}
+/* 选择内容 */
+.chooseInfo{
+  width: 100%;
+  padding: 40rpx 0;
+  background: #fff;
+  margin-bottom: 60rpx;
+}
+.allChoose{
+  margin-left: 60rpx;
+}
+.allChoose .allduoxuan{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.allChoose text{
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.chooseProject{
+  width: 690rpx;
+  margin: 0 auto;
+}
+.chooseProject label{
+  display: flex;
+  justify-content: start;
+  width: 88%;
+  height: 120rpx;
+  line-height: 120rpx;
+  background: #F0F5FB;
+  padding: 0 40rpx;
+}
+
+/* 选择 */
+.mai-dep{
+  width: 650rpx;
+  padding: 50rpx 30rpx;
+  background: #fff;
+}
+.mai-dep .mai-dep-con{
+  width: 100%;
+  background: #f0f4fb;
+}
+
+.mai-dep .mai-dep-item:last-child .mai-item-1{
+  border-bottom: none;
+}
+.mai-dep .mai-con-wrap text{
+  font-size: 28rpx;
+  color: #484848;
+  margin-left: -350rpx;
+}
+.mai-dep .mai-con-wrap image{
+  width:15rpx;
+  height: 25rpx;
+  margin-right: 30rpx;
+}
+.mai-dep .mai-dep-con .mai-item-1{
+  height: 66rpx;
+  border-bottom: 2rpx dashed #9dacdb;
+  padding: 6rpx;
+}
+.mai-dep .mai-dep-item .mai-con-wrap{
+  height: 62rpx;
+  border: 2rpx dashed #f0f4fb;
+  border-radius: 8rpx;
+}
+.mai-dep .mai-dep-item.show .mai-item-1{
+  border: 2rpx dashed #4b4f74;
+  background: #c5d7f6;
+}
+.mai-dep .mai-dep-item.show .mai-con-wrap{
+  border: 2rpx dashed #4b4f74;
+}
+.mai-dep .mai-dep-item.show .mai-con-wrap image{
+  transform: rotate(90deg);
+}
+.mai-dep .mai-dep-item .mai-item-con{
+  background-color: #fff;
+}
+.mai-dep .mai-item-con .mai-con-1{
+  height: 76rpx;
+  border-bottom: 4rpx solid #c3cff3;
+  font-size: 24rpx;
+  color: #888;
+}
+.mai-dep .mai-con-1 radio-group{
+  width:140rpx
+}
+.mai-dep .mai-con-1 radio-group:nth-of-type(1){
+  margin-left: 36rpx;
+  margin-right: 200rpx;
+}
+.mai-dep .mai-con-wrap .duoxuan{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 10rpx;
+}
+
+/* 选定人数 */
+.chooseNum{
+  margin-left: 50rpx;
+}
+/* 尾 */
+.footerCommit{
+  width: 100%;
+  height: 100rpx;
+  background: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding-top: 15rpx;
+}
+.footerCommit image{
+  width: 45rpx;
+  height:45rpx;
+}
